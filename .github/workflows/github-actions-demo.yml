@@ -21,6 +21,6 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
     - name: Test with pytest
-      working-directory: ./src
+      working-directory: ./src/service_one
       run: |
         pytest
